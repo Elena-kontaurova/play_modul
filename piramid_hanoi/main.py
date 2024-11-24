@@ -3,7 +3,8 @@ import sys
 
 import pygame
 
-pygame.init()
+pygame.init()  # ignore
+
 
 WIDTH, HEIGHT = 600, 400
 BACKGROUND_COLOR = (255, 255, 255)
