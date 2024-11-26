@@ -3,7 +3,8 @@ import sys
 
 import pygame
 
-pygame.init()  # ignore
+
+pygame.init()
 
 
 WIDTH, HEIGHT = 600, 400
