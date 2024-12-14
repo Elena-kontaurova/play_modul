@@ -16,7 +16,6 @@ t.speed(25)
 
 list_colors = ['red', 'green', 'yellow', 'orange', 'pink']
 
-
 initial_step = 30
 for _ in range(60):
     t.color(random.choice(list_colors))

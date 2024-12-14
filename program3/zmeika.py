@@ -19,7 +19,7 @@ t.up()
 current_direction = 'Right'
 
 
-def moveUP():
+def MoveUp():
     ''' Вверх'''
     global current_direction
     current_direction = 'Up'
@@ -80,7 +80,7 @@ def move():
 w.onkey(moveRIGHT, 'Right')
 w.onkey(moveDOWN, 'Down')
 w.onkey(moveLEFT, 'Left')
-w.onkey(moveUP, 'Up')
+w.onkey(MoveUp, 'Up')
 
 w.listen()
 
